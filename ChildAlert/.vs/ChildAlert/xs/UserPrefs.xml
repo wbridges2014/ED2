@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{1E67A55B-0436-4B19-9C52-A3CA634B40BE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChildAlert/PairPage.cs">
+    <Files>
+      <File FileName="ChildAlert/PairPage.cs" Line="9" Column="2" />
+      <File FileName="ChildAlert/MainActivity.cs" Line="44" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ChildAlert AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault" />
+</Properties>

@@ -1900,6 +1900,9 @@ namespace ChildAlert
 			// aapt resource value: 0x7f0b0032
 			public const int blocking = 2131427378;
 			
+			// aapt resource value: 0x7f0b007d
+			public const int bluetoothPair = 2131427453;
+			
 			// aapt resource value: 0x7f0b002f
 			public const int bottom = 2131427375;
 			
@@ -1996,8 +1999,8 @@ namespace ChildAlert
 			// aapt resource value: 0x7f0b006f
 			public const int media_actions = 2131427439;
 			
-			// aapt resource value: 0x7f0b007d
-			public const int message = 2131427453;
+			// aapt resource value: 0x7f0b007e
+			public const int message = 2131427454;
 			
 			// aapt resource value: 0x7f0b0023
 			public const int middle = 2131427363;

@@ -1901,7 +1901,7 @@ namespace ChildAlert
 			public const int blocking = 2131427378;
 			
 			// aapt resource value: 0x7f0b007d
-			public const int bluetoothPair = 2131427453;
+			public const int bluetoothEnable = 2131427453;
 			
 			// aapt resource value: 0x7f0b002f
 			public const int bottom = 2131427375;
@@ -1987,6 +1987,9 @@ namespace ChildAlert
 			// aapt resource value: 0x7f0b000a
 			public const int line3 = 2131427338;
 			
+			// aapt resource value: 0x7f0b007f
+			public const int listDevices = 2131427455;
+			
 			// aapt resource value: 0x7f0b000f
 			public const int listMode = 2131427343;
 			
@@ -1999,8 +2002,8 @@ namespace ChildAlert
 			// aapt resource value: 0x7f0b006f
 			public const int media_actions = 2131427439;
 			
-			// aapt resource value: 0x7f0b007e
-			public const int message = 2131427454;
+			// aapt resource value: 0x7f0b0080
+			public const int message = 2131427456;
 			
 			// aapt resource value: 0x7f0b0023
 			public const int middle = 2131427363;
@@ -2028,6 +2031,9 @@ namespace ChildAlert
 			
 			// aapt resource value: 0x7f0b007c
 			public const int pairButton = 2131427452;
+			
+			// aapt resource value: 0x7f0b007e
+			public const int pairedDevicesButton = 2131427454;
 			
 			// aapt resource value: 0x7f0b0040
 			public const int parentPanel = 2131427392;

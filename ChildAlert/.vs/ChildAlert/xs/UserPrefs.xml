@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{9AB4AE7A-4F5F-4A52-9E0F-DA1179CA5B07}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ChildAlert/PairActivity.cs">
     <Files>
-      <File FileName="ChildAlert/PairActivity.cs" Line="28" Column="9" />
+      <File FileName="ChildAlert/PairActivity.cs" Line="73" Column="39" />
       <File FileName="ChildAlert/MainAcitivty.cs" Line="36" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -11,5 +11,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ChildAlert AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.ChildAlert AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.E1MGA2E7C1700553" />
 </Properties>

@@ -12,7 +12,7 @@ using System.Collections.Generic;
 namespace ChildAlert
 {
     [Activity(Label = "ChildAlert", MainLauncher = true, Icon = "@mipmap/icon")]
-    public class MainActivity : Activity
+    public class PairActivity : Activity
     {
         TextView welcomeText;
         Button pairButton;

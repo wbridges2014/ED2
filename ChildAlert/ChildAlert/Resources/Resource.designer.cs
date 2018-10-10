@@ -3493,9 +3493,6 @@ namespace ChildAlert
 			// aapt resource value: 0x7f0c00a6
 			public const int locationButton = 2131493030;
 			
-			// aapt resource value: 0x7f0c00a3
-			public const int map = 2131493027;
-			
 			// aapt resource value: 0x7f0c00db
 			public const int masked = 2131493083;
 			
@@ -3645,6 +3642,9 @@ namespace ChildAlert
 			
 			// aapt resource value: 0x7f0c00cb
 			public const int right_side = 2131493067;
+			
+			// aapt resource value: 0x7f0c00a3
+			public const int sampleText = 2131493027;
 			
 			// aapt resource value: 0x7f0c0020
 			public const int satellite = 2131492896;

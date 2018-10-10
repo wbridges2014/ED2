@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{9AB4AE7A-4F5F-4A52-9E0F-DA1179CA5B07}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/9.0.0-20/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChildAlert/Location.cs">
     <Files>
-      <File FileName="ChildAlert/MainAcitivty.cs" Line="1" Column="1" />
-      <File FileName="ChildAlert/PairActivity.cs" Line="79" Column="1" />
-      <File FileName="ChildAlert/Location.cs" Line="30" Column="2" />
-      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/9.0.0-20/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="2152" Column="3" />
+      <File FileName="ChildAlert/PairActivity.cs" Line="31" Column="51" />
+      <File FileName="ChildAlert/Location.cs" Line="42" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

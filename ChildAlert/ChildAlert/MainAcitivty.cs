@@ -20,20 +20,18 @@ namespace ChildAlert
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
 
-            welcomeText = FindViewById<TextView>(Resource.Id.welcomeText);
-            beepButton = FindViewById<Button>(Resource.Id.beepButton);
-            locationButton = FindViewById<Button>(Resource.Id.locationButton);
+            initialize();
 
             beepButton.Click += OnBeepButtonClick;
             locationButton.Click += OnLocationButtonClick;
 
-            //var enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-            //startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
-            //StartActivityForResult(BluetoothAdapter.ActionRequestEnable, 0000);
+        }
 
-            //BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.DefaultAdapter;
-
-            //BluetoothAdapter.Enable();
+        void initialize()
+        {
+            welcomeText = FindViewById<TextView>(Resource.Id.welcomeText);
+            beepButton = FindViewById<Button>(Resource.Id.beepButton);
+            locationButton = FindViewById<Button>(Resource.Id.locationButton);
         }
 
         void OnBeepButtonClick(object sender, EventArgs e)
@@ -43,7 +41,8 @@ namespace ChildAlert
 
         void OnLocationButtonClick(object sender, EventArgs e)
         {
-            welcomeText.Text = "*GPS Location*";
+            /*welcomeText.Text = "*GPS Location*";*/
+            StartActivity(typeof(LocateActivity));
         }
 
     }

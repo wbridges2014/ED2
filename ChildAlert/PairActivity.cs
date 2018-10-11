@@ -6,7 +6,7 @@ using System;
 namespace ChildAlert
 {
     [Activity(Label = "Child Alert", MainLauncher = true, Icon = "@mipmap/icon")]
-    public class MainActivity : Activity
+    public class PairActivity : Activity
     {
         //TextView welcomeText;
         Button pairButton;

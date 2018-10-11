@@ -1,10 +1,30 @@
 ﻿<Properties StartupConfiguration="{9AB4AE7A-4F5F-4A52-9E0F-DA1179CA5B07}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Location.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="ChildAlert/PairActivity.cs" Line="1" Column="1" />
-      <File FileName="ChildAlert/MainAcitivty.cs" Line="19" Column="1" />
-      <File FileName="Location.cs" Line="28" Column="13" />
+      <File FileName="ChildAlert/MainAcitivty.cs" Line="1" Column="1" />
+      <File FileName="Location.cs" Line="122" Column="52" />
+      <File FileName="MainActivity.cs" Line="40" Column="15" />
+      <File FileName="PairActivity.cs" Line="31" Column="1" />
+      <File FileName="Resources/AboutResources.txt" Line="1" Column="1" />
+      <File FileName="Resources/values/Strings.xml" Line="2" Column="1" />
+      <File FileName="Source Not Available" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChildAlert" expanded="True">
+            <Node name="ChildAlert" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True">
+                  <Node name="Location.axml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

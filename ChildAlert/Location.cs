@@ -17,11 +17,13 @@ using Android.Widget;
 namespace ChildAlert
 {
     [Activity(Label = "Location Test")]
-    //Implement ILocationListener interface to get location updates
+   
     public class LocationActivity : AppCompatActivity, ILocationListener
     {
         const long ONE_MINUTE = 60 * 1000;
         const long FIVE_MINUTES = 5 * ONE_MINUTE;
+        //const long TWO_MINUTES = 2 * ONE_MINUTE;
+
         static readonly string KEY_REQUESTING_LOCATION_UPDATES = "requesting_location_updates";
 
         static readonly int RC_LAST_LOCATION_PERMISSION_CHECK = 1000;

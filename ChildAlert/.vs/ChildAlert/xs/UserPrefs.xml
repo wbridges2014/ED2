@@ -1,9 +1,20 @@
 ﻿<Properties StartupConfiguration="{9AB4AE7A-4F5F-4A52-9E0F-DA1179CA5B07}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChildAlert/Location.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChildAlert/PairActivity.cs">
     <Files>
-      <File FileName="ChildAlert/PairActivity.cs" Line="31" Column="51" />
-      <File FileName="ChildAlert/Location.cs" Line="42" Column="7" />
+      <File FileName="ChildAlert/PairActivity.cs" Line="56" Column="6" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ChildAlert" expanded="True">
+            <Node name="ChildAlert" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="PairActivity.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -11,5 +22,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ChildAlert AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.E1MGA2E7C1700553" />
+  <MonoDevelop.Ide.ItemProperties.ChildAlert AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
 </Properties>

@@ -17,8 +17,6 @@ namespace ChildAlert
         TextView welcomeText;
         Button pairButton;
         Button bluetoothEnable;
-        Button pairedDevicesButton;
-        ListView listDevices;
         BluetoothAdapter bt;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -29,50 +27,33 @@ namespace ChildAlert
             initialize();
 
             pairButton.Click += OnPairButtonClick;
-            bluetoothEnable.Click += OnBluetoothEnableClick;
-            pairedDevicesButton.Click += OnPairedDevicesButtonClicked;
+            bluetoothEnable.Click += OnBluetoothEnableAndPairClick;
         }
 
-        void initialize()
+        private void initialize()
         {
             bt = BluetoothAdapter.DefaultAdapter;
 
             welcomeText = FindViewById<TextView>(Resource.Id.welcomeText);
             pairButton = FindViewById<Button>(Resource.Id.pairButton);
             bluetoothEnable = FindViewById<Button>(Resource.Id.bluetoothEnable);
-            pairedDevicesButton = FindViewById<Button>(Resource.Id.pairedDevicesButton);
-            listDevices = FindViewById<ListView>(Resource.Id.listDevices);
         }
 
+        void OnBluetoothEnableAndPairClick(object sender, EventArgs e)
+        {
+            StartActivity(new Intent(Android.Provider.Settings.ActionBluetoothSettings));
+        }
 
         void OnPairButtonClick(object sender, EventArgs e)
         {
-            StartActivity(typeof(MainAcitivty));
-        }
-
-        void OnBluetoothEnableClick(object sender, EventArgs e)
-        {
             if(!bt.Enable())
             {
-                Intent enable = new Intent(BluetoothAdapter.ActionRequestEnable);
-                StartActivityForResult(enable, 0); 
+                Toast.MakeText(ApplicationContext, "Test", ToastLength.Short);
             }
-
-            Toast.MakeText(this, "Bluetooth Enabled", ToastLength.Short).Show();
-        }
-
-        void OnPairedDevicesButtonClicked(object sender, EventArgs e)
-        {
-            ArrayList list = new ArrayList();
-            foreach (BluetoothDevice b in bt.BondedDevices)
+            else
             {
-                list.Add(b.Name);
+                StartActivity(typeof(MainAcitivty));
             }
-
-            ArrayAdapter adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, list);
-            listDevices.SetAdapter(adapter);
         }
-
     }
 }
-

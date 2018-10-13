@@ -3313,8 +3313,8 @@ namespace ChildAlert
 			// aapt resource value: 0x7f0c0061
 			public const int blocking = 2131492961;
 			
-			// aapt resource value: 0x7f0c00d5
-			public const int bluetoothEnable = 2131493077;
+			// aapt resource value: 0x7f0c00d4
+			public const int bluetoothEnable = 2131493076;
 			
 			// aapt resource value: 0x7f0c0048
 			public const int bottom = 2131492936;
@@ -3481,9 +3481,6 @@ namespace ChildAlert
 			// aapt resource value: 0x7f0c0018
 			public const int line3 = 2131492888;
 			
-			// aapt resource value: 0x7f0c00d7
-			public const int listDevices = 2131493079;
-			
 			// aapt resource value: 0x7f0c002a
 			public const int listMode = 2131492906;
 			
@@ -3493,14 +3490,14 @@ namespace ChildAlert
 			// aapt resource value: 0x7f0c00a6
 			public const int locationButton = 2131493030;
 			
-			// aapt resource value: 0x7f0c00db
-			public const int masked = 2131493083;
+			// aapt resource value: 0x7f0c00d9
+			public const int masked = 2131493081;
 			
 			// aapt resource value: 0x7f0c00c7
 			public const int media_actions = 2131493063;
 			
-			// aapt resource value: 0x7f0c00d9
-			public const int message = 2131493081;
+			// aapt resource value: 0x7f0c00d7
+			public const int message = 2131493079;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int middle = 2131492924;
@@ -3607,11 +3604,8 @@ namespace ChildAlert
 			// aapt resource value: 0x7f0c00c9
 			public const int notification_main_column_container = 2131493065;
 			
-			// aapt resource value: 0x7f0c00d4
-			public const int pairButton = 2131493076;
-			
-			// aapt resource value: 0x7f0c00d6
-			public const int pairedDevicesButton = 2131493078;
+			// aapt resource value: 0x7f0c00d5
+			public const int pairButton = 2131493077;
 			
 			// aapt resource value: 0x7f0c0056
 			public const int parallax = 2131492950;
@@ -3805,8 +3799,8 @@ namespace ChildAlert
 			// aapt resource value: 0x7f0c0079
 			public const int title_template = 2131492985;
 			
-			// aapt resource value: 0x7f0c00d8
-			public const int toolbar = 2131493080;
+			// aapt resource value: 0x7f0c00d6
+			public const int toolbar = 2131493078;
 			
 			// aapt resource value: 0x7f0c0049
 			public const int top = 2131492937;
@@ -3844,8 +3838,8 @@ namespace ChildAlert
 			// aapt resource value: 0x7f0c0016
 			public const int view_offset_helper = 2131492886;
 			
-			// aapt resource value: 0x7f0c00da
-			public const int visible = 2131493082;
+			// aapt resource value: 0x7f0c00d8
+			public const int visible = 2131493080;
 			
 			// aapt resource value: 0x7f0c00b9
 			public const int volume_item_container = 2131493049;

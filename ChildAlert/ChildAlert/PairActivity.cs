@@ -33,7 +33,6 @@ namespace ChildAlert
         private void initialize()
         {
             bt = BluetoothAdapter.DefaultAdapter;
-
             welcomeText = FindViewById<TextView>(Resource.Id.welcomeText);
             pairButton = FindViewById<Button>(Resource.Id.pairButton);
             bluetoothEnable = FindViewById<Button>(Resource.Id.bluetoothEnable);
@@ -46,10 +45,13 @@ namespace ChildAlert
 
         void OnPairButtonClick(object sender, EventArgs e)
         {
-            if(!bt.Enable())
+
+            if (!bt.IsEnabled)
             {
-                Toast.MakeText(ApplicationContext, "Test", ToastLength.Short);
+                Toast toast = Toast.MakeText(ApplicationContext, "Please Enable Bluetooth & Connect to a Device", ToastLength.Short);
+                toast.Show();
             }
+
             else
             {
                 StartActivity(typeof(MainAcitivty));

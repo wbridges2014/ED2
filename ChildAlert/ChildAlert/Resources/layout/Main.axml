@@ -10,9 +10,9 @@
         android:minWidth="25px"
         android:minHeight="25px"
         android:id="@+id/welcomeText"
-        android:text="You a Hoe"
         android:gravity="center"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:text="Main Menu" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

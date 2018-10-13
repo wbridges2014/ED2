@@ -5,6 +5,7 @@ using System;
 using Android.Bluetooth;
 
 
+
 namespace ChildAlert
 {
     [Activity(Label = "MainAcitivty")]
@@ -14,6 +15,7 @@ namespace ChildAlert
         TextView welcomeText;
         Button beepButton;
         Button locationButton;
+        Android.Media.ToneGenerator toneG;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -36,7 +38,8 @@ namespace ChildAlert
 
         void OnBeepButtonClick(object sender, EventArgs e)
         {
-            welcomeText.Text = "*Beep*";
+            toneG = new Android.Media.ToneGenerator(Android.Media.Stream.Alarm, 500);
+            toneG.StartTone(Android.Media.Tone.CdmaAlertCallGuard);
         }
 
         void OnLocationButtonClick(object sender, EventArgs e)

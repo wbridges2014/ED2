@@ -17,8 +17,5 @@
         android:layout_marginHorizontal="35dp"
         android:id="@+id/locateButton"
         android:text="Locate Child" />
-    <fragment
-        class="com.google.android.gms.maps.MapFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+    
 </LinearLayout>

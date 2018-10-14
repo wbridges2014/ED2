@@ -4,19 +4,40 @@ using Android.Widget;
 using Android.Content.PM;
 using Plugin.Permissions;
 using System;
+using Android.Locations;
+using Android.Runtime;
+using System.Collections.Generic;
+using Android.Util;
+using System.Linq;
 
 namespace ChildAlert
 {
     [Activity(Label = "MainActivity")]
-    public class LocateActivity : Activity
+    public class LocateActivity : Activity, ILocationListener
     {
-        /*public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
-        {
-            PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-        }*/
 
         TextView sampleText;
+        Android.Locations.LocationProvider fusedLocationProviderClient;
+
+        public void OnLocationChanged(Location location)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnProviderDisabled(string provider)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnProviderEnabled(string provider)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void OnStatusChanged(string provider, [GeneratedEnum] Availability status, Bundle extras)
+        {
+            throw new NotImplementedException();
+        }
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -25,14 +46,9 @@ namespace ChildAlert
 
             initialize();
 
-
-            /*TabLayoutResource = Resource.Layout.Location;
-            ToolbarResource = Resource.Layout.Toolbar;
-
-            global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            Plugin.CurrentActivity.CrossCurrentActivity.Current.Init(this, savedInstanceState);
-
-            //LoadApplication(new );*/
+            Android.Locations.ILocationListener locationRequest = new PackageInstallLocation.SetPriority(LocationRequest.PriorityHighAccuracy)
+                                  .SetInterval(60 * 1000 * 5)
+                                  .SetFastestInterval(60 * 1000 * 2);
         }
 
         void initialize()

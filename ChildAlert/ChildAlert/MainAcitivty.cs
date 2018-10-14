@@ -44,7 +44,6 @@ namespace ChildAlert
 
         void OnLocationButtonClick(object sender, EventArgs e)
         {
-            /*welcomeText.Text = "*GPS Location*";*/
             StartActivity(typeof(LocateActivity));
         }
 

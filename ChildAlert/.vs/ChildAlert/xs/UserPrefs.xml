@@ -1,22 +1,10 @@
 ﻿<Properties StartupConfiguration="{9AB4AE7A-4F5F-4A52-9E0F-DA1179CA5B07}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ChildAlert/MainAcitivty.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChildAlert/Location.cs">
     <Files>
-      <File FileName="ChildAlert/MainAcitivty.cs" Line="53" Column="1" />
+      <File FileName="ChildAlert/Location.cs" Line="37" Column="64" />
+      <File FileName="ChildAlert/PairActivity.cs" Line="25" Column="48" />
+      <File FileName="ChildAlert/MainAcitivty.cs" Line="50" Column="6" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="ChildAlert" expanded="True">
-            <Node name="ChildAlert" expanded="True">
-              <Node name="MainAcitivty.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -26,5 +14,5 @@
     <Watch file="../../../ChildAlert/PairActivity.cs" line="58" offsetX="757" offsetY="744" expression="Android.Bluetooth.State" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ChildAlert AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.E1MGA2E7C1700553" />
+  <MonoDevelop.Ide.ItemProperties.ChildAlert AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
 </Properties>

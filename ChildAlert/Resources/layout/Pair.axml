@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Button
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pairButton"
+        android:text="Pair"
+        android:layout_marginTop="15.0dp"
+        android:layout_marginHorizontal="45.0dp"
+        android:visibility="visible"
+        android:clickable="true" />
+    <Button
+        android:id="@+id/bluetoothEnable"
+        android:text="Enable Bluetooth"
+        android:layout_marginTop="15.0dp"
+        android:layout_marginHorizontal="45.0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Paired Devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dp"
+        android:layout_marginHorizontal="45.0dp"
+        android:id="@+id/pairedDevicesButton" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listDevices" />
+        
+    
+</LinearLayout>
